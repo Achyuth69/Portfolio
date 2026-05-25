@@ -376,9 +376,9 @@ export default function Hero() {
             style={{ color: "#94a3b8", fontSize: "0.95rem", lineHeight: 1.8, marginBottom: "2.5rem", maxWidth: 460 }}
           >
             Building intelligent systems like{" "}
-            <span style={{ color: "#00d4ff", fontWeight: 600 }}>Jennifer AI</span> &{" "}
-            <span style={{ color: "#a78bfa", fontWeight: 600 }}>Sahayak AI</span>.
-            {" "}CS student forging tomorrow's technology — one neural network at a time.
+            <span style={{ color: "#00d4ff", fontWeight: 600 }}>Sahayak AI</span> &{" "}
+            <span style={{ color: "#a78bfa", fontWeight: 600 }}>Disaster Response Agents</span>.
+            {" "}CS (AI&ML) student at GCET — forging tomorrow's technology one neural network at a time.
           </motion.p>
 
           <motion.div
