@@ -145,8 +145,8 @@ export default function Hero() {
               EXPLORE PROJECTS
             </a>
             <a
-              href="#contact"
-              onClick={e => { e.preventDefault(); document.querySelector("#contact")?.scrollIntoView({ behavior: "smooth" }); }}
+              href="/Achyuth_Parisha_Resume.pdf"
+              download="Achyuth_Parisha_Resume.pdf"
               style={{
                 background: "transparent",
                 border: "1px solid rgba(124,58,237,0.5)",
@@ -157,9 +157,9 @@ export default function Hero() {
               }}
             >
               <svg width="15" height="15" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4" />
               </svg>
-              GET IN TOUCH
+              DOWNLOAD CV
             </a>
           </motion.div>
 

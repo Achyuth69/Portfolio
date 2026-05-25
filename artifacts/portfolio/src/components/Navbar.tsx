@@ -85,9 +85,8 @@ export default function Navbar() {
           </a>
         ))}
         <a
-          href="https://drive.google.com/drive/folders/1_your_cv_placeholder"
-          target="_blank"
-          rel="noopener noreferrer"
+          href="/Achyuth_Parisha_Resume.pdf"
+          download="Achyuth_Parisha_Resume.pdf"
           className="neon-btn"
           style={{ padding: "8px 18px", fontSize: "0.8rem", cursor: "pointer" }}
         >
@@ -154,7 +153,7 @@ export default function Navbar() {
               {link.label}
             </a>
           ))}
-          <a href="https://drive.google.com/drive/folders/1_your_cv_placeholder" target="_blank" rel="noopener noreferrer" className="neon-btn" style={{ alignSelf: "flex-start", cursor: "pointer" }}>
+          <a href="/Achyuth_Parisha_Resume.pdf" download="Achyuth_Parisha_Resume.pdf" className="neon-btn" style={{ alignSelf: "flex-start", cursor: "pointer" }}>
             Download CV
           </a>
         </motion.div>
