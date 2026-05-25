@@ -85,10 +85,11 @@ export default function Navbar() {
           </a>
         ))}
         <a
-          href="#"
-          onClick={(e) => e.preventDefault()}
+          href="https://drive.google.com/drive/folders/1_your_cv_placeholder"
+          target="_blank"
+          rel="noopener noreferrer"
           className="neon-btn"
-          style={{ padding: "8px 18px", fontSize: "0.8rem", cursor: "none" }}
+          style={{ padding: "8px 18px", fontSize: "0.8rem", cursor: "pointer" }}
         >
           Download CV
         </a>
@@ -153,7 +154,7 @@ export default function Navbar() {
               {link.label}
             </a>
           ))}
-          <a href="#" onClick={(e) => e.preventDefault()} className="neon-btn" style={{ alignSelf: "flex-start" }}>
+          <a href="https://drive.google.com/drive/folders/1_your_cv_placeholder" target="_blank" rel="noopener noreferrer" className="neon-btn" style={{ alignSelf: "flex-start", cursor: "pointer" }}>
             Download CV
           </a>
         </motion.div>
