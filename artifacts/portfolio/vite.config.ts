@@ -18,6 +18,22 @@ export default defineConfig({
   build: {
     outDir: path.resolve(__dirname, "dist"),
     emptyOutDir: true,
+    cssCodeSplit: true,
+    chunkSizeWarningLimit: 400,
+    rollupOptions: {
+      output: {
+        manualChunks: {
+          // React core — cache forever
+          "vendor-react": ["react", "react-dom"],
+        },
+        entryFileNames: "assets/[name]-[hash].js",
+        chunkFileNames: "assets/[name]-[hash].js",
+        assetFileNames: "assets/[name]-[hash][extname]",
+      },
+    },
+    minify: "esbuild",
+    sourcemap: false,
+    target: "es2020",
   },
   server: {
     port: 5173,
